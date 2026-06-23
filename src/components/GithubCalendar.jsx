@@ -47,7 +47,7 @@ const GithubCalendar = () => {
                                 contributions.log
                             </span>
                         </div>
-                        <a href="https://github.com/ADD-USERNAME" target="_blank" rel="noreferrer" className="flex items-center gap-1.5 text-xs text-gray-500 hover:text-green-400 transition-colors">
+                        <a href="https://github.com/varunch29" target="_blank" rel="noreferrer" className="flex items-center gap-1.5 text-xs text-gray-500 hover:text-green-400 transition-colors">
                             Profile →
                         </a>
                     </div>
@@ -55,13 +55,13 @@ const GithubCalendar = () => {
                     <div className="px-5 pt-4 pb-4">
                         <p className="text-xs text-green-400/60 overflow-x-auto whitespace-nowrap">
                             <span className="text-green-400">$</span> git log --all --oneline
-                            --graph --author="ADD-USERNAME"
+                            --graph --author="varunch29"
                         </p>
                     </div>
                     {/* CALENDAR */}
                     <div className="px-5 pb-6 overflow-x-auto">
                         <div className="min-w-150">
-                            <GitHubCalendar username="ADD-USERNAME" theme={calendarTheme} colorScheme="dark" fontSize={12} blockSize={14} blockMargin={6} blockRadius={2} showWeekdayLabels={true} style={{ color: "#6a7282" }} />
+                            <GitHubCalendar username="varunch29" theme={calendarTheme} colorScheme="dark" fontSize={12} blockSize={14} blockMargin={6} blockRadius={2} showWeekdayLabels={true} style={{ color: "#6a7282" }} />
                         </div>
                     </div>
                     <div className="flex items-center justify-between px-4 py-2.5 border-t border-gray-50/5 bg-gray-50/2 flex-wrap gap-3">
@@ -82,7 +82,7 @@ const GithubCalendar = () => {
                 </div>
                 {/* CTA */}
                 <div className="flex items-center justify-center w-full">
-                    <a href="https://github.com/ADD-USERNAME?tab=repositories" target="_blank" rel="noreferrer" className="group inline-flex items-center gap-3 px-6 sm:px-8 py-4 rounded border border-green-400/40 bg-green-400/5 text-green-400 text-sm font-bold uppercase tracking-widest hover:bg-green-400/10 hover:border-green-400 transition-all duration-300 text-center">
+                    <a href="https://github.com/varunch29?tab=repositories" target="_blank" rel="noreferrer" className="group inline-flex items-center gap-3 px-6 sm:px-8 py-4 rounded border border-green-400/40 bg-green-400/5 text-green-400 text-sm font-bold uppercase tracking-widest hover:bg-green-400/10 hover:border-green-400 transition-all duration-300 text-center">
                         <FiGithub className="size-5 shrink-0" />
                         Explore All Repositories
                         <svg className="size-4 shrink-0 group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round">

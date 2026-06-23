@@ -6,8 +6,8 @@ export const contactInfo = [
             </svg>
         ),
         label: "Email",
-        value: "E-MAIL",
-        href: "mailto:E-MAIL",
+        value: "varunreddynani29@gmail.com",
+        href: "mailto:varunreddynani29@gmail.com",
     },
     {
         icon: (
@@ -17,8 +17,8 @@ export const contactInfo = [
             </svg>
         ),
         label: "Location",
-        value: "Islampore, India",
-        href: "ADD-LOCATION-URL",
+        value: "Hyderabad, India",
+        href: "https://www.google.com/maps/place/Hyderabad,+Telangana/@17.4126086,78.2432338,11z/data=!3m1!4b1!4m6!3m5!1s0x3bcb99daeaebd2c7:0xae93b78392bafbc2!8m2!3d17.406498!4d78.4772439!16zL20vMDljNnc?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
     },
     {
         icon: (
@@ -27,8 +27,8 @@ export const contactInfo = [
             </svg>
         ),
         label: "GitHub",
-        value: "github.com/ADD-USERNAME",
-        href: "https://github.com/ADD-USERNAME",
+        value: "github.com/varunch29",
+        href: "https://github.com/varunch29",
     },
     {
         icon: (

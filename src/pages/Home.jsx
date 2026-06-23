@@ -154,9 +154,9 @@ const Home = () => {
                         </h1>
                     </div>
                     <div ref={subRef} className="text-lg md:text-xl text-gray-400">
-                        <p className="mb-2">Hi, I'm <span className="text-gray-50 font-bold">Portfolio</span></p>
+                        <p className="mb-2">Hi, I'm <span className="text-gray-50 font-bold">Varun Reddy</span></p>
                         {/* TYPING TEXT */}
-                        <TypingText texts={["Frontend Developer", "Full Stack Engineer", "Freelancer", "Web Designer", "Computer Science Student",]} />
+                        <TypingText texts={["Frontend Developer", "Full Stack Engineer", "Freelancer", "Android Developer" , "Web Designer", "Computer Science Student",]} />
                     </div>
                     {/* DESCRIPTION */}
                     <p ref={descRef} className="text-sm md:text-base text-gray-400 leading-relaxed max-w-md">

@@ -97,7 +97,7 @@ const Navbar = () => {
                             {"<"}
                         </span>
                         <span className="text-gray-50 font-bold text-lg tracking-tight">
-                            Portfolio
+                            Varun Reddy
                             <span className="text-green-400">.Dev</span>
                         </span>
                         <span className="text-green-400 text-lg font-bold opacity-70 group-hover:opacity-100 transition-opacity">
@@ -119,7 +119,7 @@ const Navbar = () => {
                         })}
                     </div>
                     {/* CTA */}
-                    <a id="nav-cta" href="#resume" target="_blank" rel="noreferrer" className="hidden md:inline-flex items-center gap-2 px-5 py-2 text-xs font-bold uppercase tracking-widest text-[#040404] bg-green-400 rounded hover:bg-green-500 transition-all duration-300 aldrich-regular">
+                    {/* <a id="nav-cta" href="#resume" target="_blank" rel="noreferrer" className="hidden md:inline-flex items-center gap-2 px-5 py-2 text-xs font-bold uppercase tracking-widest text-[#040404] bg-green-400 rounded hover:bg-green-500 transition-all duration-300 aldrich-regular">
                         <svg className="size-3.5" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                             <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" />
                             <path d="M14 2v5a1 1 0 0 0 1 1h5" />
@@ -128,7 +128,7 @@ const Navbar = () => {
                             <path d="M16 17H8" />
                         </svg>
                         Resume
-                    </a>
+                    </a> */}
                     {/* HAMBURGER MENU */}
                     <button type="button" onClick={() => toggleMenu(true)} className="md:hidden flex items-center justify-center size-9 border border-gray-50/10 rounded text-gray-400">
                         <HiMenuAlt3 className="text-base" />

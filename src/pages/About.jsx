@@ -172,7 +172,7 @@ const About = () => {
                                 </div>
                                 <div>
                                     <h3 className="text-xl font-bold text-gray-50">
-                                        Portfolio
+                                        Varun Reddy
                                     </h3>
                                     <p className="text-green-400 text-sm mt-0.5">
                                         Full-stack Developer
@@ -190,7 +190,7 @@ const About = () => {
                             </div>
                             {/* BIO */}
                             <p className="text-sm text-gray-400 leading-relaxed">
-                                I'm Portfolio, a{" "}
+                                I'm Varun Reddy, a{" "}
                                 <span className="text-green-400 font-bold">
                                     full-stack developer
                                 </span>{" "}
@@ -225,43 +225,43 @@ const About = () => {
                             <div className="flex items-center justify-between flex-col sm:flex-row gap-4 mt-6 pt-5 border-t border-gray-50/5">
                                 <div className="flex gap-3">
                                     {[
-                                        {
-                                            icon: <FaSquareFacebook />,
-                                            href: "https://www.facebook.com/ADD-USERNAME",
-                                            color: "#0064e0",
-                                        },
-                                        {
-                                            icon: <FaSquareInstagram />,
-                                            href: "https://www.instagram.com/ADD-USERNAME/",
-                                            color: "#E1306C",
-                                        },
+                                        // {
+                                        //     icon: <FaSquareFacebook />,
+                                        //     href: "https://www.facebook.com/ADD-USERNAME",
+                                        //     color: "#0064e0",
+                                        // },
+                                        // {
+                                        //     icon: <FaSquareInstagram />,
+                                        //     href: "https://www.instagram.com/ADD-USERNAME/",
+                                        //     color: "#E1306C",
+                                        // },
                                         {
                                             icon: <GitHubIcon />,
-                                            href: "https://github.com/ADD-USERNAME",
+                                            href: "https://github.com/varunch29",
                                             color: "#fafafa",
                                         },
                                         {
                                             icon: <FaSquareXTwitter />,
-                                            href: "https://x.com/",
+                                            href: "https://x.com/varunch29",
                                             color: "#fafafa",
                                         },
-                                        {
-                                            icon: <FaSquareBluesky />,
-                                            href: "https://bsky.app/profile/ADD-LINK.bsky.social",
-                                            color: "#0F73FF",
-                                        },
-                                        {
-                                            icon: <FaSquareWhatsapp />,
-                                            href: "https://api.whatsapp.com/send/?phone=91-ADD-NUM&text&type=phone_number&app_absent=0",
-                                            color: "#05df72",
-                                        },
+                                        // {
+                                        //     icon: <FaSquareBluesky />,
+                                        //     href: "https://bsky.app/profile/ADD-LINK.bsky.social",
+                                        //     color: "#0F73FF",
+                                        // },
+                                        // {
+                                        //     icon: <FaSquareWhatsapp />,
+                                        //     href: "https://api.whatsapp.com/send/?phone=91-ADD-NUM&text&type=phone_number&app_absent=0",
+                                        //     color: "#05df72",
+                                        // },
                                     ].map(({ icon, href, color }) => (
                                         <a key={href} href={href} target="_blank" rel="noreferrer" className="text-2xl text-gray-600 transition-all duration-300 hover:scale-110" style={{ "--hover-color": color }} onMouseEnter={(e) => (e.currentTarget.style.color = color)} onMouseLeave={(e) => (e.currentTarget.style.color = "")}>
                                             {icon}
                                         </a>
                                     ))}
                                 </div>
-                                <a href="#resume" target="_blank" rel="noreferrer" className="group relative inline-flex w-full sm:w-auto items-center justify-center gap-2 px-5 py-2 text-xs font-bold uppercase tracking-widest text-black bg-green-400 rounded overflow-hidden transition-all aldrich-regular">
+                                {/* <a href="#resume" target="_blank" rel="noreferrer" className="group relative inline-flex w-full sm:w-auto items-center justify-center gap-2 px-5 py-2 text-xs font-bold uppercase tracking-widest text-black bg-green-400 rounded overflow-hidden transition-all aldrich-regular">
                                     <span className="relative z-10 flex items-center gap-2">
                                         <svg className="size-3.5" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                                             <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" />
@@ -273,7 +273,7 @@ const About = () => {
                                         <span className="flex items-center translate-y-px md:translate-y-0">Resume</span>
                                     </span>
                                     <div className="absolute inset-0 bg-green-500 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
-                                </a>
+                                </a> */}
                             </div>
                         </div>
                         {/* JSON-STYLE INFO PANEL */}
@@ -291,7 +291,7 @@ const About = () => {
                                     <div className="text-gray-400">{"{"}</div>
                                     <div className="pl-4">
                                         <span className="text-blue-400">"name"</span>:{" "}
-                                        <span className="text-green-300">"Portfolio"</span>
+                                        <span className="text-green-300">"Varun Reddy"</span>
                                     </div>
                                     <div className="pl-4">
                                         <span className="text-blue-400">"role"</span>:{" "}
@@ -310,7 +310,7 @@ const About = () => {
                                         </div>
                                         <div className="pl-8">
                                             <span className="text-blue-400">"frontend"</span>:{" "}
-                                            <span className="text-green-300">"4+ years"</span>
+                                            <span className="text-green-300">"2+ years"</span>
                                         </div>
                                         <div className="pl-8">
                                             <span className="text-blue-400">"backend"</span>:{" "}
@@ -343,7 +343,7 @@ const About = () => {
                                         <span className="text-blue-400">"education"</span>:{" "}
                                         <span className="text-gray-400">{"{"}</span>
                                         <div className="pl-8">
-                                            <span className="text-blue-400">"2024-Present"</span>:{" "}
+                                            <span className="text-blue-400">"2022-2026"</span>:{" "}
                                             <span className="text-gray-400">{"{"}</span>
 
                                             <div className="pl-12">
@@ -352,29 +352,29 @@ const About = () => {
                                             </div>
                                             <div className="pl-12">
                                                 <span className="text-blue-400">"field"</span>:{" "}
-                                                <span className="text-green-300">"Computer Science & Engineering"</span>
+                                                <span className="text-green-300">"Information Technology"</span>
                                             </div>
                                             <div className="text-gray-400">{"}"}</div>
                                         </div>
-                                        <div className="pl-8">
-                                            <span className="text-blue-400">"2021-2024"</span>:{" "}
+                                        {/* <div className="pl-8">
+                                            <span className="text-blue-400">"2020-2022"</span>:{" "}
                                             <span className="text-gray-400">{"{"}</span>
                                             <div className="pl-12">
                                                 <span className="text-blue-400">"degree"</span>:{" "}
-                                                <span className="text-green-300">"Diploma in Engineering"</span>
+                                                <span className="text-green-300">"Intermediate"</span>
                                             </div>
                                             <div className="pl-12">
                                                 <span className="text-blue-400">"field"</span>:{" "}
-                                                <span className="text-green-300">"Computer Science & Technology"</span>
+                                                <span className="text-green-300">"MPC"</span>
                                             </div>
                                             <div className="text-gray-400">{"}"}</div>
-                                        </div>
+                                        </div> */}
                                         <div className="pl-8">
-                                            <span className="text-blue-400">"2019-2021"</span>:{" "}
+                                            <span className="text-blue-400">"2020-2022"</span>:{" "}
                                             <span className="text-green-300">"Higher Secondary Education"</span>
                                         </div>
                                         <div className="pl-8">
-                                            <span className="text-blue-400">"2013-2019"</span>:{" "}
+                                            <span className="text-blue-400">"2019-2020"</span>:{" "}
                                             <span className="text-green-300">"Secondary Education"</span>
                                         </div>
                                         <div className="text-gray-400">{"}"}</div>
@@ -384,7 +384,7 @@ const About = () => {
                                         <span className="text-gray-400">{"{"}</span>
                                         <div className="pl-8">
                                             <span className="text-blue-400">"city"</span>:{" "}
-                                            <span className="text-green-300">"ADD-CITY"</span>
+                                            <span className="text-green-300">"Hyderabad"</span>
                                         </div>
                                         <div className="pl-8">
                                             <span className="text-blue-400">"country"</span>:{" "}
@@ -412,7 +412,7 @@ const About = () => {
                                 {
                                     icon: "🗄️",
                                     title: "Database",
-                                    desc: "NeonDB",
+                                    desc: "MongoDB",
                                 },
                                 {
                                     icon: "✨",

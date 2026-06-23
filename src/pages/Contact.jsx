@@ -245,7 +245,7 @@ const Contact = () => {
                             </div>
                             <form onSubmit={sendEmail} className="p-6 flex flex-col gap-5">
                                 <p className="text-xs text-green-400/60 mb-1">
-                                    <span className="text-green-400">$</span> ping --YOUR-NAME
+                                    <span className="text-green-400">$</span> ping --Varun Reddy
                                 </p>
                                 <Field label="Your Name" name="name_from" placeholder="John Doe" required />
                                 <Field label="Your Email" name="email_from" type="email" placeholder="johndoe@example.com" onChange={handleEmailChange} error={emailError} required />
